@@ -1,7 +1,7 @@
 import requests
 import json
-from util import handle_request_exception 
-from logger import Logger
+from mtodo.util import handle_request_exception 
+from mtodo.logger import Logger
 
 logger = Logger.get_logger( logpath = '/tmp/mtodo-logs.log' )
 

@@ -3,7 +3,7 @@ import toml
 import requests
 import json
 import sys, os, atexit
-from logger import Logger
+from mtodo.logger import Logger
 
 logger = Logger.get_logger( logpath = '/tmp/mtodo-logs.log' )
 

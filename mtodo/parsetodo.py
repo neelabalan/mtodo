@@ -2,10 +2,10 @@ import os
 import codecs
 import tokenize
 import json
+from io import StringIO
 
-from util   import get_extension 
-from logger import Logger
-from io     import StringIO
+from mtodo.util   import get_extension 
+from mtodo.logger import Logger
 
 logger = Logger.get_logger( logpath = '/tmp/mitodo-logs.log' )
 

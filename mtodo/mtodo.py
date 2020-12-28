@@ -1,10 +1,10 @@
 import toml
-import auth
+import mtodo.auth as auth
 import sys
 import os
 import argparse
-from app import MSTodoApp
-from parsetodo  import construct_todos, get_all_pyfiles
+from mtodo.app import MSTodoApp
+from mtodo.parsetodo  import construct_todos, get_all_pyfiles
 
 def main():
     config = toml.load( 'config.toml' )
