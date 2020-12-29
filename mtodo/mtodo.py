@@ -7,7 +7,7 @@ from mtodo.app import MSTodoApp
 from mtodo.parsetodo  import construct_todos, get_all_pyfiles
 
 def main():
-    config = toml.load( 'config.toml' )
+    config = toml.load( '~/.config/mtodo/config.toml' )
     config = config.get( 'config' )
 
     parser = argparse.ArgumentParser()
