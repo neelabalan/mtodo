@@ -69,7 +69,6 @@ class MSTodoApp( TodoApi ):
     def __init__( self, access_token ):
         super( MSTodoApp, self ).__init__( access_token = access_token )
 
-    # TODO: return and raise value error or specific exception
     def get_all_lists_and_id( self ):
         response = self.get_task_list()
         if response:
